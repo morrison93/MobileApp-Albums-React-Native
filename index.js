@@ -6,8 +6,8 @@ import Header from './src/components/header';			// Library developed by myself w
 
 // Create a component
 const App = () => (					// refactored version of the one below
-	<Header /> // Component nesting: nesting the header (in a self closing tag) inside another component (App component)  
-);
+	<Header headerText={'Albums'}/> // Component nesting: nesting the header (in a self closing tag) inside another component (App component)  
+);									// passing the header Text to the header so its controlled by the root component - reusable!!! 
 
 /*const App = () => {
 	return (

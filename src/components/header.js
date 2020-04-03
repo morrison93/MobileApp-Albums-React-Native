@@ -3,12 +3,12 @@ import React from 'react';
 import { Text, View } from 'react-native';  // When we want to center for example the text we use the view tag
 
 // Make a component 
-const Header = () => {
-	const { textStyle, viewStyle } = styles; // 
+const Header = (props) => {					// Reference to the props that’s coming in from the parent (root) component
+	const { textStyle, viewStyle } = styles;  
 
 	return (
 		<View style={viewStyle}>
-			<Text style={textStyle}>Albums!</Text> 
+			<Text style={textStyle}>{props.headerText}</Text> 
 		</View>	// style={textStyle} => this is a prop(erty). Furthermore the text tag is inside a view giving origin to this code
 	);	
 };
