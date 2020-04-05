@@ -9,4 +9,9 @@ by getting an introdutory way of understanding about JSX, Components, Props, Sta
 	2. Creating the Header Component:
 		2.1. Consuming File Exports;
 		2.2. Styling the Header component with React-Native;
-		2.3. Making the Header reusable, while understanding, the root-child hierarchy.
+		2.3. Making the Header reusable, while understanding, the root-child hierarchy;
+	3. Creating the AlbumList Component:
+		3.1. Turning this functional component into a class-based component;
+		3.2. Perform fetching of data through HTTP request; 
+		3.3. Manage lifecycle methods and component level state;
+		3.4. Render Album List to the device;
