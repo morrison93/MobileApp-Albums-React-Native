@@ -1,12 +1,14 @@
 import React from 'react';
 import { Text, View } from 'react-native';
+import Card from './Card';
 
+//Album detail wrapped in Card component
 
 const AlbumDetail = (props) => {
 	return (
-		<View>
+		<Card>
 			<Text>{props.album.title}</Text>
-		</View>
+		</Card>
 	);
 };
 

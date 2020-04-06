@@ -15,3 +15,5 @@ by getting an introdutory way of understanding about JSX, Components, Props, Sta
 		3.2. Perform fetching of data through HTTP request; 
 		3.3. Manage lifecycle methods and component level state;
 		3.4. Render Album List to the device;
+	4. Added Card Component;
+		4.1. Styled the Card component for presenting the album details. 
