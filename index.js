@@ -9,7 +9,7 @@ import AlbumList from './src/components/AlbumList';
 // Component nesting: nesting the header (in a self closing tag) inside another component (App component)
 // I had to wrap the Header and the AlbumList component under a root view tag. 
 const App = () => (					
-	<View>							
+	<View style={{ flex:1 }}>							
 		<Header headerText={'Albums'}/> 
 		<AlbumList />
 	</View>  

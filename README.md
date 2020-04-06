@@ -16,4 +16,19 @@ by getting an introdutory way of understanding about JSX, Components, Props, Sta
 		3.3. Manage lifecycle methods and component level state;
 		3.4. Render Album List to the device;
 	4. Added Card Component;
-		4.1. Styled the Card component for presenting the album details. 
+		4.1. Styled the Card component for presenting the album details;
+		4.2. Divided the CardSection component for placing diferent pieces of data;
+		4.3. Styled the diferent CardSection components;
+	5. Make content scrollable;
+
+
+
+
+### How to run in Android device: 
+	1. Make Developer Option - On
+	2. Enable USB debugging	
+	3. Connect your mobile with usb cable.
+	4. Open your sdk platform-tools 
+	5. In sdk platform-tools: cmd>adb devices
+	6. In sdk platform-tools: cmd>adb reverse tcp:8081 tcp:8081 
+	7. in project directory cmd>react-native run-android    	     
