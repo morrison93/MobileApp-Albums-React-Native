@@ -20,6 +20,10 @@ by getting an introdutory way of understanding about JSX, Components, Props, Sta
 		4.2. Divided the CardSection component for placing diferent pieces of data;
 		4.3. Styled the diferent CardSection components;
 	5. Make content scrollable;
+	6. Create a "Buy Now" Button:
+		6.1. Create a Button component;
+		6.2. Styled component; 
+		6.3. Linked component to outside URL by Linking
 
 
 

@@ -1,13 +1,14 @@
 import React from 'react';
-import { Text, View, Image } from 'react-native';
+import { Text, View, Image, Linking } from 'react-native';
 import Card from './Card';
 import CardSection from './CardSection';
+import Button from './Button';
 
 
 //Album detail wrapped in Card component
 
 const AlbumDetail = ({ album }) => {
-	const { title, artist, thumbnail_image, image } = album;	// de-structuring the props 
+	const { title, artist, thumbnail_image, image, url } = album;	// de-structuring the props 
 	const {thumbnailStyle, headerContentStyle, headerTextStyle, thumbnailContainerStyle, imageStyle} = styles; // de-structuring the styles 
 
 	return (
@@ -30,8 +31,13 @@ const AlbumDetail = ({ album }) => {
 					source={{ uri: image }}
 				/>
 			</CardSection>
+			<CardSection>											
+				<Button onPress={() => Linking.openURL(url)}>
+					Buy Now
+				</Button> 
+			</CardSection>
 		</Card>
-	);
+	);	//onPress in button tag is the function that is being passed to Button.js as prop
 };
 
 
